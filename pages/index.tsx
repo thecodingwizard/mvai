@@ -54,16 +54,16 @@ const Home: NextPage = () => {
                 src="https://www.blog.adva.com/-/media/blog/header-images/2020/200826-artificial-intelligence-machine-learning-min.jpg?rev=62ab2be4b57d42328647d19d75566d1f&hash=B613A4A799AA2AFED56F73E9325AB268"
                 alt="AI Background"
               />
-              <div className="absolute inset-0 bg-gradient-to-r from-purple-900 to-indigo-800 mix-blend-multiply" />
+              <div className="absolute inset-0 bg-gradient-to-r from-sky-900 to-blue-800 mix-blend-multiply" />
             </div>
             <div className="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-32 lg:px-8">
               <h1 className="text-center text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
-                <span className="block text-indigo-200">Monta Vista</span>
+                <span className="block text-blue-200">Monta Vista</span>
                 <span className="block text-white">
                   Artificial Intelligence Club
                 </span>
               </h1>
-              <p className="mt-6 max-w-lg mx-auto text-center text-xl text-indigo-200 sm:max-w-3xl">
+              <p className="mt-6 max-w-lg mx-auto text-center text-xl text-blue-200 sm:max-w-3xl">
                 Meetings every Friday at Lunch in Mr. Kim's classroom. Join us to learn about
                 AI and create your own machine learning projects!
               </p>
@@ -73,7 +73,7 @@ const Home: NextPage = () => {
                     href="https://docs.google.com/forms/d/e/1FAIpQLScsdz718lo5owFw_nvabaRsjhYcjnD-wmKCqR7FcPm2W6R36g/viewform"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-700 bg-white hover:bg-indigo-50 sm:px-8"
+                    className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-700 bg-white hover:bg-blue-50 sm:px-8"
                   >
                     Interest Form
                   </a>
@@ -81,7 +81,7 @@ const Home: NextPage = () => {
                     href="mailto:mvaiclub@gmail.com"
                     target="_blank"
                     rel="noreferrer"
-                    className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
+                    className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-blue-500 bg-opacity-60 hover:bg-opacity-70 sm:px-8"
                   >
                     Contact Us
                   </a>
@@ -95,7 +95,7 @@ const Home: NextPage = () => {
       {/* <div className="py-16 sm:pt-20 sm:pb-24 lg:pt-24">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="lg:text-center">
-            <h2 className="text-base text-indigo-600 font-semibold tracking-wide uppercase">
+            <h2 className="text-base text-blue-600 font-semibold tracking-wide uppercase">
               About Competitive Programming
             </h2>
             <p className="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
@@ -113,7 +113,7 @@ const Home: NextPage = () => {
               {features.map((feature) => (
                 <div key={feature.name} className="relative">
                   <dt>
-                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-indigo-500 text-white">
+                    <div className="absolute flex items-center justify-center h-12 w-12 rounded-md bg-blue-500 text-white">
                       <feature.icon className="h-6 w-6" aria-hidden="true" />
                     </div>
                     <p className="ml-16 text-lg leading-6 font-medium text-gray-900">
@@ -131,18 +131,18 @@ const Home: NextPage = () => {
       </div> */}
 
       {/* Gradient Feature Section */}
-      {/* <div className="bg-gradient-to-r from-purple-800 to-indigo-700">
+      {/* <div className="bg-gradient-to-r from-sky-800 to-blue-700">
         <div className="max-w-prose text-xl mx-auto px-4 py-16 sm:px-6 sm:pt-20 sm:pb-24 lg:max-w-7xl lg:pt-24 lg:px-8">
           <h2 className="text-4xl font-extrabold text-white tracking-tight">
             Why MVCPC?
           </h2>
-          <p className="mt-4 max-w-3xl text-lg text-purple-200">
+          <p className="mt-4 max-w-3xl text-lg text-sky-200">
             Monta Vista has a lot of clubs that focus on computer-related
             subjects. But none of the other clubs emphasize competitive
             programming, nor do they have a track record like us. Here are some
             of our club’s achievements in the past three years:
           </p>
-          <ul className="mt-4 space-y-2 list-disc list-outside max-w-3xl text-lg text-purple-200 pl-8">
+          <ul className="mt-4 space-y-2 list-disc list-outside max-w-3xl text-lg text-sky-200 pl-8">
             <li>
               Over 20 members have been promoted into the USACO’s highest
               division, the Platinum Division.
@@ -166,7 +166,7 @@ const Home: NextPage = () => {
         <div className="max-w-4xl mx-auto py-16 px-4 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8 lg:flex lg:items-center lg:justify-between">
           <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
             <span className="block">Ready to get started?</span>
-            <span className="block bg-gradient-to-r from-purple-600 to-indigo-600 bg-clip-text text-transparent">
+            <span className="block bg-gradient-to-r from-sky-600 to-blue-600 bg-clip-text text-transparent">
               Join MVCPC Today!
             </span>
           </h2>
@@ -175,7 +175,7 @@ const Home: NextPage = () => {
               href="https://forms.gle/EKcgMq9siKd3WY757"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center justify-center bg-gradient-to-r from-purple-600 to-indigo-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-purple-700 hover:to-indigo-700"
+              className="flex items-center justify-center bg-gradient-to-r from-sky-600 to-blue-600 bg-origin-border px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-white hover:from-sky-700 hover:to-blue-700"
             >
               Interest Form
             </a>
@@ -183,7 +183,7 @@ const Home: NextPage = () => {
               href="mailto:programmingcompetitive@gmail.com"
               target="_blank"
               rel="noreferrer"
-              className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-indigo-800 bg-indigo-50 hover:bg-indigo-100"
+              className="flex items-center justify-center px-4 py-3 border border-transparent text-base font-medium rounded-md shadow-sm text-blue-800 bg-blue-50 hover:bg-blue-100"
             >
               Contact Us
             </a>
@@ -209,7 +209,7 @@ const Home: NextPage = () => {
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:max-w-7xl lg:px-8 xl:grid xl:grid-cols-2 xl:grid-flow-col-dense xl:gap-x-8">
             <div className="relative pt-12 pb-64 sm:pt-24 sm:pb-64 xl:col-start-1 xl:pb-24">
               <h2 className="text-sm font-semibold tracking-wide uppercase">
-                <span className="bg-gradient-to-r from-purple-300 to-indigo-300 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-sky-300 to-blue-300 bg-clip-text text-transparent">
                   Next Steps
                 </span>
               </h2>

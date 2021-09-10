@@ -48,7 +48,7 @@ const Team: NextPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Team | MVCPC</title>
+        <title>Team | MVAI</title>
       </Head>
       <div className="bg-white">
         <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">

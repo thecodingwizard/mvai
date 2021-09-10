@@ -41,7 +41,7 @@ const Home: NextPage = () => {
   return (
     <Layout>
       <Head>
-        <title>Monta Vista Competitive Programming Club (MVCPC)</title>
+        <title>Monta Vista Artificial Intelligence Club (MVAI)</title>
       </Head>
       {/* Hero section */}
       <div className="relative">

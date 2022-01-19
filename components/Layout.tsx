@@ -35,10 +35,18 @@ const Layout: NextPage = ({ children }) => {
             </Popover.Group> */}
             <div className="hidden md:flex items-center justify-end md:flex-1 lg:w-0">
               <a
-                href="mailto:mvaiclub@gmail.com"
+                href="https://github.com/mvaiclub"
                 target="_blank"
                 rel="noreferrer"
                 className="whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
+              >
+                Github
+              </a>
+              <a
+                href="mailto:mvaiclub@gmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="ml-8 whitespace-nowrap text-base font-medium text-gray-500 hover:text-gray-900"
               >
                 Contact Us
               </a>
@@ -71,7 +79,7 @@ const Layout: NextPage = ({ children }) => {
                   <div className="flex items-center justify-between">
                     <div className="text-2xl font-black text-gray-700">
                       <Link href="/">
-                        <a>MVCPC</a>
+                        <a>MVAI Club</a>
                       </Link>
                     </div>
                     <div className="-mr-2">
@@ -113,6 +121,16 @@ const Layout: NextPage = ({ children }) => {
                       className="text-gray-900"
                     >
                       Contact Us
+                    </a>
+                  </p>
+                  <p className="mt-6 text-center text-base font-medium text-gray-500">
+                    <a
+                      href="https://github.com/mvaiclub"
+                      target="_blank"
+                      rel="noreferrer"
+                      className="text-gray-900"
+                    >
+                      Github
                     </a>
                   </p>
                 </div>

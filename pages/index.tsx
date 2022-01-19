@@ -64,7 +64,7 @@ const Home: NextPage = () => {
                 </span>
               </h1>
               <p className="mt-6 max-w-lg mx-auto text-center text-xl text-blue-200 sm:max-w-3xl">
-                Meetings every Monday at Lunch in E203. Join us to learn about
+                Meetings every Tuesday at Lunch in E203. Join us to learn about
                 AI and create your own machine learning projects!
               </p>
               <div className="mt-10 max-w-sm mx-auto sm:max-w-none sm:flex sm:justify-center">
